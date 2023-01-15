@@ -1,12 +1,12 @@
 
 function sendSms(to, body) {
 
-  var messages_url = "https://ip.sms.ir/SendMessage.ashx?user=9127742208&pass=aryaarousha51910&lineNo=30004747471484" ;
+  var messages_url = "https://ip.sms.ir/SendMessage.ashx?user=?&pass=&lineNo=" ;
 
   var payload = {
     "To": to,
     "text" : body,
-    "From" : "30004747471484"
+    "From" : ""
   };
 
   var options = {
